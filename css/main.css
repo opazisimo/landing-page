@@ -1,1 +1,101 @@
-/* Tu CSS va aqui */
+@media (max-width: 535px) {
+	.contain {
+	    margin:0 !important;
+	    padding:0 !important;
+	}
+
+	.fila {
+	    margin:0 !important;
+	    padding:0 !important;
+	}	
+}
+
+@media (min-width: 768px) {
+  .contain {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .contain {s
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .contain {
+    width: 1170px;
+  }
+}
+
+
+* {
+	font-family: "Open sans", sans-serif;
+}
+
+.inli {
+	display: inline;
+}
+
+/* Head */
+.head {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.logo {
+	width: 30%;
+}
+.navs {
+	text-decoration: none;
+	color: #818181;
+	text-align: right;
+	font-size: 0.9em;
+}
+
+/* Principal */
+
+.principal {
+	background-color: #818181;
+	color: white;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.principal h1 {
+	font-size: 3em;
+}
+.principal p {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 0.7em;
+}
+.imp {
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.inputs {
+	background-color: #9b9b9b;
+	border-radius: 10px;
+	width: 60%;
+	padding: 5%;
+	text-align: center;
+	float:right;
+}
+
+.button {
+	background-color: #00b1fb;
+	color: white;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+/* Footer */
+.footer {
+	color: #818181;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 0.7em;
+}
+.footer a {
+	text-decoration: none;
+}
