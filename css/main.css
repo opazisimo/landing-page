@@ -1,38 +1,10 @@
-@media (max-width: 535px) {
-	.contain {
-	    margin:0 !important;
-	    padding:0 !important;
-	}
-
-	.fila {
-	    margin:0 !important;
-	    padding:0 !important;
-	}	
-}
-
-@media (min-width: 768px) {
-  .contain {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .contain {s
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .contain {
-    width: 1170px;
-  }
-}
-
 
 * {
 	font-family: "Open sans", sans-serif;
 }
 
 .inli {
-	display: inline;
+	display: inline-block;
 }
 
 /* Head */
@@ -65,7 +37,7 @@
 .principal p {
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 .imp {
 	width: 100%;
@@ -78,7 +50,6 @@
 	width: 60%;
 	padding: 5%;
 	text-align: center;
-	float:right;
 }
 
 .button {
